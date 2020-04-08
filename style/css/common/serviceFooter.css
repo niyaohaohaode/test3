@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "fzwt";
+	src: url(../../font/fzwt.ttf);
+}
+
+  
+/*其中fontName替换为你的字体名称*/
+/* h1{font-family: fontnameRegular} */
+footer{
+	background: #efefef;
+	padding-top: 35px;
+}
+footer h1{
+	margin-bottom: 14px;
+	color: #275427;
+	font-size: 30px;
+	font-family: fzwt;
+}
+footer h4{
+	height: 27px;
+	line-height: 27px;
+	font-size: 16px;
+	/* font-family: Agency FB; */
+}
+footer h5{
+	height: 23px;
+	line-height: 23px;
+	font-size: 13px;
+}
+footer #main_le{
+	width: 500px;
+	float: left;
+}
+footer #main_ri{
+	float: right;
+}
+footer #record{
+	background: url(../../img/line.gif) no-repeat;
+}
+footer #record a{
+	color: #5C5858;
+	line-height: 33px;
+}

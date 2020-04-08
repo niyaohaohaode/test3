@@ -1,0 +1,36 @@
+@media screen and (min-width:320px) and (max-width:768px){
+	header #serviceBanner img {
+	    height: 230px;
+	}
+	header #subPageHeadBtn{
+		display: block;
+		position: absolute;
+		top: 10%;
+		right: 5%;
+	}
+	header nav{
+		position: absolute;
+		background: rgba(0,0,0,.7);
+		padding: 50px 20px;
+		transition: all .4s;
+		display: none;
+		top: -2px;
+		/* height: 100vh; */
+		/* background: #fff; */
+	}
+	header nav ul{
+		width: 100%!important;
+	}
+	header nav ul li{
+		width: 100%;
+		/* color: #fff; */
+		border: none;
+		border-bottom: 1px dashed #ccc;
+	}
+	header nav ul li a{
+		color: #fff;
+	}
+	#borderR {
+	    border-right: none;
+	}
+}

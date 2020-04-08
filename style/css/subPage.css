@@ -1,0 +1,218 @@
+/*====================================================
+                    二级页面通用样式
+======================================================*/
+#subPageContent {
+	width: 1500px;
+}
+
+#subPageMain {
+	width: 1200px;
+
+}
+
+#subPageContent #subPageMain h1 span {
+	font-size: 8px;
+	color: #c1c1c1;
+	margin-left: 16px;
+}
+
+#subPageContent #subPageMain h3 {
+	color: #5c5858;
+	padding-left: 40px;
+	background: url(../img/sunPageHome.gif) no-repeat 15px;
+}
+
+#subPageContent #subPageMain #search {
+	position: absolute;
+	right: -33px;
+	top: 0px;
+}
+
+#subPageContent #subPageMain #search input {
+	display: block;
+	width: 186px;
+	height: 22px;
+	line-height: 15px;
+	color: #5c5858;
+	border: 1px solid #5c5858;
+	border-radius: 5px;
+	font-size: 10px;
+	padding: 2px 7px;
+	background: url(../img/bgSearch.gif) right no-repeat;
+
+}
+.noBgsearch input{
+	background: url(../img/noBgSearch.gif) 160px no-repeat!important;
+}
+#tabBox #tab_Menu {
+	width: 1200px;
+	height: 40px;
+	line-height: 30px;
+	/* box-shadow: 0px 18px 20px #ebebeb; */
+	box-shadow: 4px 5px 7px -1px #ebebeb;
+}
+
+#tabBox #tab_Menu ul li {
+	width: 103px;
+	color: #5c5858;
+}
+
+#tabBox #tab_Menu ul li a:hover {
+	color: #275427;
+	/* border-bottom: 2px solid #7d987d; */
+}
+
+#tabBox #tab_Menu ul li i {
+	display: block;
+	margin: 6px auto 0;
+	width: 12px;
+	height: 2px;
+	opacity: 0;
+	transition: all .3s;
+}
+
+#tabBox #tab_content ul li {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #eeeeee;
+	/* background: #fff; */
+	padding-left: 24px;
+	font-size: 12px;
+	color: #5c5858;
+}
+#tabBox #tab_content ul li span {
+	margin-right: 22px;
+}
+#tabBox #tab_content ul li:hover a {
+	text-decoration: underline;
+	color: #547254;
+}
+
+#subPageMain #pageSkip {
+	width: 600px;
+	/* float: right; */
+	/* margin-right: 300px; */
+	/* margin: 40px 300px 50px 0;*/
+	margin: 50px auto;
+}
+#subPageMain #pageSkip>a {
+	display: block;
+	float: left;
+	border: 1px solid #dadada;
+	font-size: 10px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	padding: 0 10px;
+	margin-right: 7px;
+}
+#subPageMain #pageSkip>a:not(:last-of-type):hover{
+	background: #017001;
+	color: #fff;
+}
+#subPageMain #pageSkip #lastA {
+	border: none;
+}
+
+#subPageMain #pageSkip select {
+	width: 37px;
+	height: 19px;
+	line-height: 19px;
+	border: 1px solid #dadada;
+	/* 将默认的select选择框样式清除 */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(../img/arrow.gif) no-repeat scroll 25px center transparent;
+	/* margin-right: 14px; */
+	padding-left: 3px;
+}
+.triangle {
+	color: #017001;
+}
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.on2 {
+	width: 24px !important;
+	opacity: 1 !important;
+	background: #7d987d;
+	/* background: #042D3D !important; */
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+	display: none;
+}
+
+/*====================================================
+                    页面Agritech
+======================================================*/
+
+#Agritech #subPageNav #li6 {
+	background: #e1e5e1 url(../img/slideNavLiBg.gif) left no-repeat;
+}
+
+/*====================================================
+                    页面Policies
+======================================================*/
+#Policies #subPageNav #li4 {
+	background: #e1e5e1 url(../img/slideNavLiBg.gif) left no-repeat;
+}
+#Policies #tabBox #tab_Menu ul li i {
+	width: 24px;
+}
+#Policies .on2 {
+	width: 40px !important;
+	opacity: 1 !important;
+	background: #7d987d;
+}
+#Policies #tab_Menu2{
+	padding: 0 2%;
+}
+#Policies #tab_Menu2 a{
+	display: block;
+	float: left;
+	border: 1px solid #5c5858;
+	padding: 2px 7px;
+	font-size: 11px;
+	color: #262626;
+	margin:20px 23px 0 0;
+	cursor: pointer;
+}
+.on3{
+	background: #5c5858;
+	color: #fff!important;
+}
+.show2{
+	display: block;
+}
+.hide2{
+	display: none;
+}
+/*====================================================
+                    页面NewsCenter
+======================================================*/
+#NewsCenter #subPageNav #li3 {
+	background: #e1e5e1 url(../img/slideNavLiBg.gif) left no-repeat;
+}
+#NewsCenter #subPageContent #subPageMain #search {
+	top: -45px;
+}
+#NewsCenter  #subPageMain h3 {
+	height: 30px;
+	line-height: 30px;
+	background: #eeeeee url(../img/subPageHome2.gif) no-repeat 15px;
+}
+#NewsCenter  #subPageMain h3 span{
+	display: block;
+	width: 103px;
+	height: 30px;
+	right: 0;
+	top: 0;
+	background: #017001;
+}

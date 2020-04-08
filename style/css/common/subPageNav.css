@@ -1,0 +1,23 @@
+#subPageNav{
+	width: 165px;
+	height: 100vh;
+	border-right: 1px solid #c1c1c1;
+	padding-top: 96px;
+	margin-right: 82px;
+}
+#subPageNav ul li{
+	height: 42px;
+	line-height: 21px;
+}
+#subPageNav .currentLi{
+	background: url(../img/slideNavLiBg.gif) left no-repeat;
+	background-size: 15px 25px;
+}
+#subPageNav #p2{
+	font-size: 8px;
+}
+#subPageNav ul li:hover{
+	/* background: ; */
+	background:#e1e5e1 url(../img/slideNavLiBg.gif) left no-repeat;
+	background-size: 15px 25px;
+}
